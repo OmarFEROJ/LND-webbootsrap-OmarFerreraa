@@ -37,3 +37,7 @@ h1 {
     margin: 5% 3% 5% 0;
 }
 
+.rotated-image {
+    transform: rotate(25deg);
+}
+
