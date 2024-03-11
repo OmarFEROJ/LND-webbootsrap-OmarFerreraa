@@ -32,3 +32,8 @@ h1 {
     padding-left: 18px;
     padding-right: 18px;
 }
+
+.btn-margin {
+    margin: 5% 3% 5% 0;
+}
+
