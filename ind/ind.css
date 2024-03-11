@@ -22,3 +22,8 @@ h1 {
 .navbar-padding-bottom {
     padding-bottom: 4.5rem;
 }
+
+.navbar-nav .nav-link {
+    padding-left: 18px;
+    padding-right: 18px;
+}
