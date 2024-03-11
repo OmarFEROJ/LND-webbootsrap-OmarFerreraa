@@ -2,3 +2,9 @@
     background-color: #ff4c68;
     
 }
+.container {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
