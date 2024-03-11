@@ -19,3 +19,6 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700; /* Montserrat bold equivale a 700 en su escala de peso */
 }
+.navbar-padding-bottom {
+    padding-bottom: 4.5rem;
+}
