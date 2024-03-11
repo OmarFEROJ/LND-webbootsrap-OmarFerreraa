@@ -40,4 +40,6 @@ h1 {
 .rotated-image {
     transform: rotate(25deg);
 }
-
+p {
+    font-size: 3.5rem;
+}
