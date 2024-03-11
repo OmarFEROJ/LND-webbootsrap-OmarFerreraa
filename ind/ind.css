@@ -8,6 +8,10 @@
     padding-left: 15%;
     padding-right: 15%;
 }
-body, p, h1, h2, h3, h4, h5, h6, a {
+body, p, h2, h3, h4, h5, h6, a {
     font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Montserrat bold equivale a 700 en su escala de peso */
 }
