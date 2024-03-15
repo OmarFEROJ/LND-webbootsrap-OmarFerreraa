@@ -16,6 +16,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/466e292557.js" crossorigin="anonymous"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 </head>
 
@@ -93,21 +95,42 @@
 <!-- 4.7 -->
 
 
-<!-- 4.8 -->
+<!-- 4.8 y 4.9 -->
   <!-- Testimonios -->
-  <section id="testimonials">
+  <section id="testimonials" class="py-5">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 text-center">
             <h2 style="font-size: 1.5rem; font-family: montserrat; font-weight: 700; color: black;">"Esta aplicación es justo lo que necesitaba"</h2>
-            <div class="testimonial">
-              <img src="lady-img.jpg" alt="Chica" class="img-fluid rounded-circle mb-3" width="100">
-              <em style="font-size: 1.2rem; color: white; font-style: italic;">Beverly, Illinois</em>
+            <div class="carousel slide" id="testimonials-carousel" data-bs-ride="carousel" >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="testimonial">
+                    <img src="lady-img.jpg" alt="Chica" class="img-fluid rounded-circle mb-3" width="100">
+                    <em style="font-size: 1.2rem; color: white; font-style: italic;">Beverly, Illinois</em>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="testimonial">
+                    <img src="helicoptero.jpg" alt="Helicoptero" class="img-fluid rounded-circle mb-3" width="100">
+                    <em style="font-size: 1.2rem; color: white; font-style: italic;">Benito, Buenos Aires</em>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Last</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
         </div>
       </div>
     </div>
   </section>
+<!-- 4.9 -->
   <!-- Prensa -->
   <section id="press" class="py-5 bg-light">
         <div class="container">
